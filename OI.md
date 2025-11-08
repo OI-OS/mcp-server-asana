@@ -1,6 +1,6 @@
 # MCP Server for Asana
 
-> **📘 For AI Agents:** See [AGENTS.md](./AGENTS.md) for complete installation and configuration guide for OI OS / Brain Trust 4.
+> **📘 For AI Agents:** See [OI.md](./OI.md) for complete installation and configuration guide for OI OS / Brain Trust 4.
 
 [![npm version](https://badge.fury.io/js/%40roychri%2Fmcp-server-asana.svg)](https://www.npmjs.com/package/@roychri/mcp-server-asana)
 

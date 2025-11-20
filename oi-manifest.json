@@ -1,0 +1,98 @@
+{
+  "server_name": "mcp-server-asana",
+  "version": "1.0.0",
+  "intents": [
+    {
+      "keyword": "asana list workspaces",
+      "tool_name": "asana_list_workspaces",
+      "priority": 10
+    },
+    {
+      "keyword": "asana workspaces",
+      "tool_name": "asana_list_workspaces",
+      "priority": 10
+    },
+    {
+      "keyword": "asana show workspaces",
+      "tool_name": "asana_list_workspaces",
+      "priority": 10
+    },
+    {
+      "keyword": "asana search projects",
+      "tool_name": "asana_search_projects",
+      "priority": 10
+    },
+    {
+      "keyword": "asana find projects",
+      "tool_name": "asana_search_projects",
+      "priority": 10
+    },
+    {
+      "keyword": "asana list projects",
+      "tool_name": "asana_search_projects",
+      "priority": 10
+    },
+    {
+      "keyword": "asana search tasks",
+      "tool_name": "asana_search_tasks",
+      "priority": 10
+    },
+    {
+      "keyword": "asana find tasks",
+      "tool_name": "asana_search_tasks",
+      "priority": 10
+    },
+    {
+      "keyword": "asana list tasks",
+      "tool_name": "asana_search_tasks",
+      "priority": 10
+    },
+    {
+      "keyword": "asana get task",
+      "tool_name": "asana_get_task",
+      "priority": 10
+    },
+    {
+      "keyword": "asana show task",
+      "tool_name": "asana_get_task",
+      "priority": 10
+    },
+    {
+      "keyword": "asana create task",
+      "tool_name": "asana_create_task",
+      "priority": 10
+    },
+    {
+      "keyword": "asana add task",
+      "tool_name": "asana_create_task",
+      "priority": 10
+    },
+    {
+      "keyword": "asana new task",
+      "tool_name": "asana_create_task",
+      "priority": 10
+    },
+    {
+      "keyword": "asana update task",
+      "tool_name": "asana_update_task",
+      "priority": 10
+    },
+    {
+      "keyword": "asana edit task",
+      "tool_name": "asana_update_task",
+      "priority": 10
+    },
+    {
+      "keyword": "asana get project",
+      "tool_name": "asana_get_project",
+      "priority": 10
+    },
+    {
+      "keyword": "asana show project",
+      "tool_name": "asana_get_project",
+      "priority": 10
+    }
+  ],
+  "parameter_extractors": {},
+  "reminder_message": "mcp-server-asana MCP server. See OI.md for installation and configuration details."
+}
